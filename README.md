@@ -53,6 +53,8 @@ Using the input.txt (random query images) given in the repository we obtain a pr
 
 [1] Jens-Rainer Ohm, Leszek Cieplinski, Heon J. Kim, Santhana Krishnamachari, B. S. Manjunath, Dean S. Messing and Akio Yamada, Color Descriptors, RWTH Aachen Intitute of Comunications Engineering, Mitsubishi Electric ITE-VIL, MI Group, Information Technology Laboratory, LGE, Video Communications, Philips Research, University of California, Santa Barbara, California, Information Systems Technologies Department, Sharp Labs of America, Multimedia Research Laboratories, NEC Corporation.
 
+[2] Jason Quinlan, Ahmed Zahran, Cormac Sreenan, SCD: Scalable Description Coding for Adaptive Streaming Media, Department of Computer Science, University College Cork, Ireland and Electronics and Electrical Comunications Dept., Cairo University, Egypt.
+
 
 
 

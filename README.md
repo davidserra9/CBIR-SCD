@@ -14,21 +14,21 @@ So, if we have the image ukbench00000 as a query image, our perfect result will 
 
 The input file has as many rows as images we want to search. It has the following format:
 
-  <img src="img/databaseexample.JPG" width="640" align="center">
+  <img src="img/input.JPG" width="640" align="center">
 
 And the output file will have the 10 best guesses for each query iamge. It has the following format:
 
-  <img src="img/databaseexample.JPG" width="640" align="center">
+  <img src="img/output.JPG" width="640" align="center">
 
 The precision and recall are calculated by the mean value of each image:
 
-  <img src="img/databaseexample.JPG" width="640" align="center">
+  <img src="img/precision.JPG" width="640" align="center">
   
-  <img src="img/databaseexample.JPG" width="640" align="center">
+  <img src="img/recall.JPG" width="640" align="center">
  
  The FScore is the maximum value of the FMeasure:
  
-  <img src="img/databaseexample.JPG" width="640" align="center">
+  <img src="img/FMeasure.JPG" width="640" align="center">
   
 ## 2. CODE.
 

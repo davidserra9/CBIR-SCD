@@ -7,6 +7,28 @@ The Scalable Color Descriptor (SCD) can be interpreted as a Haar transform–bas
   <img src="img/scd.JPG" width="640" align="center">
   
 In this repository we will use a database of 2000 images of the University of Kentucky which are organized in groups of 4 images. Each group has the similar image but taken with different angles and illuminations. An example:
+
+  <img src="img/databaseexample.JPG" width="640" align="center">
+
+So, if we have the image ukbench00000 as a query image, our perfect result will be ukbench00000, ukbench00001, ukbench00002, ukbench00003 and another 6 images.
+
+The input file has as many rows as images we want to search. It has the following format:
+
+  <img src="img/databaseexample.JPG" width="640" align="center">
+
+And the output file will have the 10 best guesses for each query iamge. It has the following format:
+
+  <img src="img/databaseexample.JPG" width="640" align="center">
+
+The precision and recall are calculated by the mean value of each image:
+
+  <img src="img/databaseexample.JPG" width="640" align="center">
+  
+  <img src="img/databaseexample.JPG" width="640" align="center">
+ 
+ The FScore is the maximum value of the FMeasure:
+ 
+  <img src="img/databaseexample.JPG" width="640" align="center">
   
 ## 2. CODE.
 

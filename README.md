@@ -33,3 +33,16 @@ The precision and recall are calculated by the mean value of each image:
 ## 2. CODE.
 
 ### 2.1. histogramHSV.m
+This program calculate and save in the directory, the histogram and the non-linear quantization of the HSV color space of all the images in the database. The parameters take care of how many bins are taken for each component. In the following table of the standard MPEG7 we can look for different coefficients the equivalent pationing of the HSV color space.
+
+    <img src="img/binstable.JPG" width="536" align="center">
+    
+### 2.2. haarTransform.m
+This program calculate and save in the directory, the coefficients of the Haar Transform of the histogram of all the images. In this program the user can choose how many iterations wants to make.
+
+### 2.3. mainProg.m
+This program is the one which takes care of reading the input file, compare all the query images with all the database, find the 10 best guesses and write them in the output file and calculate and graph the precision and recall.
+To compare the images we use the euclidean distance because is the one which performmed the better.
+
+## 3. RESULTS.
+

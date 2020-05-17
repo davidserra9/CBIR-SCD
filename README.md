@@ -45,4 +45,9 @@ This program is the one which takes care of reading the input file, compare all 
 To compare the images we use the euclidean distance because is the one which performmed the better.
 
 ## 3. RESULTS.
+Using the input.txt (random query images) given in the repository we obtain a precision-recall graph and FScore:
+
+  <img src="img/pr.JPG" width="591" align="center">    
+
+
 
